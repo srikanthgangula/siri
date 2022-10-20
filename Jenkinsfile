@@ -9,8 +9,8 @@ pipeline {
         }
         stage('Terraform') {
             steps {
-              sh 'terrform init'
-              sh 'terrform apply'
+              sh 'terraform init'
+              sh 'terraform apply'
             }
         }
     }
